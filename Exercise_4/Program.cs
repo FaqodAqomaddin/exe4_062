@@ -17,6 +17,12 @@ namespace Exercise_4
             {
                 Console.WriteLine(ch + " ");
             }
+            Console.WriteLine();
+            st.Push('s');
+            st.Push('t');
+            st.Push('u');
+            st.Push('v');
+            Console.WriteLine("Stack after adding two elements");
         }
     }
 }

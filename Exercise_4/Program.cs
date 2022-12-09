@@ -8,9 +8,9 @@ namespace Exercise_4
         static void Main(string[] args)
         {
             Stack st = new Stack();
-            st.Push('w');
-            st.Push('x');
-            st.Push('y');
+            st.Push('e');
+            st.Push('f');
+            st.Push('g');
             Console.WriteLine("Count of elements in the current Stack: " + st.Count);
             Console.WriteLine("Stack = ");
             foreach (char ch in st)
@@ -18,10 +18,10 @@ namespace Exercise_4
                 Console.WriteLine(ch + " ");
             }
             Console.WriteLine();
-            st.Push('s');
-            st.Push('t');
-            st.Push('u');
-            st.Push('v');
+            st.Push('a');
+            st.Push('b');
+            st.Push('c');
+            st.Push('d');
             Console.WriteLine("Stack after adding two elements");
             foreach (char ch in st)
             {
